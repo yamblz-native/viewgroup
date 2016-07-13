@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView style="@style/Item.00" />
+
+        <ImageView style="@style/Item.01" />
+
+        <ImageView style="@style/Item.02" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView style="@style/Item.10" />
+
+        <ImageView style="@style/Item.11" />
+
+        <ImageView style="@style/Item.12" />
+
+    </LinearLayout>
+
+</LinearLayout>
