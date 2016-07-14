@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.mmin18.widget.FlexLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Item.00" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Item.01"
+        app:layout_left="prev.right"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Item.02"
+        app:layout_left="prev.right"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_top="prev.bottom"
+        style="@style/Item.10" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Item.11"
+        app:layout_left="prev.right"
+        app:layout_top="prev.right"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Item.12"
+        app:layout_left="prev.right"
+        app:layout_top="prev.left"/>
+
+
+
+</com.github.mmin18.widget.FlexLayout>

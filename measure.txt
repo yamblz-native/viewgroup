@@ -1,0 +1,24 @@
+FrameLayout:
+	Measure: 0.010
+	Layout: 0.005
+	Draw: 2.282
+LinearLayout:
+	Measure: 0.010
+	Layout: 0.006
+	Draw: 2.324
+RelativeLayout:
+	Measure: 0.017
+	Layout: 0.002
+	Draw: 2.146
+TableLayout:
+	Measure: 0.021
+	Layout: 0.007
+	Draw: 2.096
+FlexLayout:
+	Measure: 0.032
+	Layout: 0.006
+	Draw: 2.267
+ConstraintLayout:
+	Measure: 0.167
+	Layout: 0.005
+	Draw: 2.339
