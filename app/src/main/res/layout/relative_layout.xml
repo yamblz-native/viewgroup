@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView style="@style/Item.00" android:id="@+id/left"/>
+
+    <ImageView
+        style="@style/Item.01"
+        android:layout_toRightOf="@id/left"
+        android:id="@+id/play"/>
+
+    <ImageView
+        style="@style/Item.02"
+        android:id="@+id/right"
+        android:layout_toRightOf="@id/play"/>
+
+    <ImageView
+        style="@style/Item.10"
+        android:id="@+id/replay"
+        android:layout_below="@+id/left"/>
+
+    <ImageView
+        style="@style/Item.11"
+        android:id="@+id/top"
+        android:layout_below="@id/play"
+        android:layout_toRightOf="@id/replay"/>
+
+    <ImageView
+        style="@style/Item.12"
+        android:id="@+id/random"
+        android:layout_below="@id/right"
+        android:layout_toRightOf="@+id/top"/>
+</RelativeLayout>
