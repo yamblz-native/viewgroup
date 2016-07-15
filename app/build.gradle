@@ -104,6 +104,8 @@ dependencies {
     compile libraries.tinyDancer
     compile libraries.lynx
     compile libraries.processPhoenix
+    compile libraries.constraintLayout
+    compile libraries.flexBoxLayout
 
     testCompile libraries.junit
     testCompile libraries.robolectric

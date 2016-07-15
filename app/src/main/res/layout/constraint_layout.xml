@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/btn_arrow_left"
+        style="@style/Item.00"/>
+
+    <ImageView
+        android:id="@+id/btn_play"
+        app:layout_constraintLeft_toRightOf="@id/btn_arrow_left"
+        style="@style/Item.01"/>
+
+    <ImageView
+        android:id="@+id/btn_arrow_right"
+        app:layout_constraintLeft_toRightOf="@id/btn_play"
+        style="@style/Item.02"/>
+
+    <ImageView
+        android:id="@+id/btn_repeat"
+        app:layout_constraintTop_toBottomOf="@+id/btn_arrow_left"
+        style="@style/Item.10"/>
+
+    <ImageView
+        android:id="@+id/btn_rating"
+        app:layout_constraintLeft_toLeftOf="@id/btn_play"
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        style="@style/Item.11"/>
+
+    <ImageView
+        android:id="@+id/btn_random"
+        app:layout_constraintLeft_toLeftOf="@id/btn_arrow_right"
+        app:layout_constraintTop_toBottomOf="@+id/btn_arrow_right"
+        style="@style/Item.12"/>
+
+</android.support.constraint.ConstraintLayout>
