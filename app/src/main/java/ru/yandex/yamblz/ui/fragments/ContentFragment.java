@@ -21,7 +21,8 @@ public class ContentFragment extends BaseFragment {
         Linear    |0.015    |0.014   |
         Table     |0.027    |0.010   |
         Relative  |0.021    |0.003   |
-        Constraint|0.455    |0.006   |
+        Constraint|0.350    |0.006   |
+        FlexBox   |0.051    |0.017   |
         Flex      |0.065    |0.008   |
          */
     }

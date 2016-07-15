@@ -10,12 +10,28 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     >
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="frame"/>
         <include layout="@layout/frame_layout" />
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="linear"/>
         <include layout="@layout/linear_layout" />
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="table"/>
         <include layout="@layout/table_layout" />
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="relative"/>
         <include layout="@layout/relative_layout"/>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="constraint"/>
         <include layout="@layout/constraint_layout"/>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="flexbox(google)"/>
+        <include layout="@layout/flexbox_layout"/>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="flex"/>
         <include layout="@layout/flex_layout" />
+
 
     </LinearLayout>
 </ScrollView>
