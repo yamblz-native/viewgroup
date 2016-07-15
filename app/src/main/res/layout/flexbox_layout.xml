@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                          xmlns:app="http://schemas.android.com/apk/res-auto"
+                                          xmlns:tools="http://schemas.android.com/tools"
+                                          tools:ignore="ContentDescription,RtlHardcoded"
+                                          android:layout_width="288dp"
+                                          android:layout_height="wrap_content"
+                                          app:flexWrap="wrap"
+                                          app:flexDirection="row"
+                                          app:alignItems="center"
+                                          app:alignContent="flex_start">
+
+    <ImageView style="@style/Item.00"/>
+
+    <ImageView style="@style/Item.01"/>
+
+    <ImageView style="@style/Item.02"/>
+
+    <ImageView style="@style/Item.10"/>
+
+    <ImageView style="@style/Item.11"/>
+
+    <ImageView style="@style/Item.12"/>
+
+</com.google.android.flexbox.FlexboxLayout>
