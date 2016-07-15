@@ -93,6 +93,7 @@ dependencies {
     compile libraries.supportRecyclerView
     compile libraries.supportCardView
     compile libraries.supportConstraint
+    compile libraries.supportFlex
 
     compile libraries.butterKnife
     apt libraries.butterKnifeCompiler
