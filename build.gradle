@@ -24,6 +24,9 @@ buildscript {
         // Needed for Lint + Retrolambda.
         classpath gradlePlugins.lombok
 
+        // Generates build info without breaking incremental builds.
+        classpath gradlePlugins.paperwork
+
         // Code coverage.
         classpath gradlePlugins.jacoco
 
@@ -39,6 +42,7 @@ buildscript {
         // Check latest version of dependencies, task: dependencyUpdates
         classpath gradlePlugins.versions
     }
+
 
     // Part of workaround for Lint + Retrolambda.
     configurations.classpath.exclude group: 'com.android.tools.external.lombok'
