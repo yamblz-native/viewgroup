@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/constraintLayout"
+    android:background="@android:color/holo_red_dark">
+    <ImageView
+        style="@style/Item.00"
+        android:id="@+id/item.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/constraintLayout"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+    <ImageView
+        style="@style/Item.01"
+        android:id="@+id/item.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/item.00"
+        app:layout_constraintLeft_toRightOf="@+id/item.00"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+    <ImageView
+        style="@style/Item.02"
+        android:id="@+id/item.02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/item.01"
+        app:layout_constraintLeft_toRightOf="@+id/item.01"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+    <ImageView
+        style="@style/Item.10"
+        android:id="@+id/item.10"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/item.00" />
+    <ImageView
+        style="@style/Item.11"
+        android:id="@+id/item.11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/item.10"
+        app:layout_constraintLeft_toRightOf="@+id/item.10"
+        app:layout_constraintTop_toBottomOf="@+id/item.01" />
+    <ImageView
+        style="@style/Item.12"
+        android:id="@+id/item.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/item.11"
+        app:layout_constraintLeft_toRightOf="@+id/item.11"
+        app:layout_constraintTop_toBottomOf="@+id/item.02" />
+</android.support.constraint.ConstraintLayout>
