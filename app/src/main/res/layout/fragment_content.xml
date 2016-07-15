@@ -16,5 +16,9 @@
 
         <include layout="@layout/relative_layout" />
 
+        <include layout="@layout/table_layout" />
+
+        <include layout="@layout/constraint_layout" />
+
     </LinearLayout>
 </ScrollView>
