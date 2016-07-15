@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Item.00">
+        <item name="srcCompat">@drawable/ic_fast_rewind</item>
+        <item name="android:src">@drawable/ic_fast_rewind</item>
+    </style>
+    <style name="Item.01">
+        <item name="srcCompat">@drawable/ic_play_circle_filled</item>
+        <item name="android:src">@drawable/ic_play_circle_filled</item>
+    </style>
+    <style name="Item.02">
+        <item name="srcCompat">@drawable/ic_fast_forward</item>
+        <item name="android:src">@drawable/ic_fast_forward</item>
+    </style>
+    <style name="Item.10">
+        <item name="srcCompat">@drawable/ic_repeat</item>
+        <item name="android:src">@drawable/ic_repeat</item>
+    </style>
+    <style name="Item.11">
+        <item name="srcCompat">@drawable/ic_equalizer</item>
+        <item name="android:src">@drawable/ic_equalizer</item>
+    </style>
+    <style name="Item.12">
+        <item name="srcCompat">@drawable/ic_shuffle</item>
+        <item name="android:src">@drawable/ic_shuffle</item>
+    </style>
+
+</resources>

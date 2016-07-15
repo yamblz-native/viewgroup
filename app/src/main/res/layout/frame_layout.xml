@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <ImageView style="@style/Item.00"/>
+
+    <ImageView
+        style="@style/Item.01"
+        android:layout_marginLeft="@dimen/item_size"/>
+
+    <ImageView
+        style="@style/Item.02"
+        android:layout_marginLeft="@dimen/double_item_size"/>
+
+    <ImageView
+        style="@style/Item.10"
+        android:layout_marginTop="@dimen/item_size"/>
+
+    <ImageView
+        style="@style/Item.11"
+        android:layout_marginLeft="@dimen/item_size"
+        android:layout_marginTop="@dimen/item_size"/>
+
+    <ImageView
+        style="@style/Item.12"
+        android:layout_marginLeft="@dimen/double_item_size"
+        android:layout_marginTop="@dimen/item_size"/>
+
+</FrameLayout>
