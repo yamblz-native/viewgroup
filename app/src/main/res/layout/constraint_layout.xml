@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription,RtlHardcoded"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/constraintLayout">
+
+    <ImageView style="@style/Item.00"
+               android:id="@+id/imageView00"
+               app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+               app:layout_constraintTop_toTopOf="@+id/constraintLayout"/>
+
+    <ImageView style="@style/Item.01"
+               android:id="@+id/imageView01"
+               app:layout_constraintLeft_toRightOf="@+id/imageView00"
+               app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+               app:layout_constraintRight_toLeftOf="@+id/imageView02"/>
+
+    <ImageView style="@style/Item.02"
+               android:id="@+id/imageView02"
+               app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+               app:layout_constraintRight_toRightOf="@+id/constraintLayout"/>
+
+    <ImageView style="@style/Item.10"
+               android:id="@+id/imageView10"
+               app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+               app:layout_constraintTop_toBottomOf="@+id/imageView00"/>
+
+    <ImageView style="@style/Item.11"
+               android:id="@+id/imageView11"
+               app:layout_constraintLeft_toRightOf="@+id/imageView10"
+               app:layout_constraintTop_toBottomOf="@+id/imageView01"
+               app:layout_constraintRight_toLeftOf="@+id/imageView12"/>
+
+    <ImageView style="@style/Item.12"
+               android:id="@+id/imageView12"
+               app:layout_constraintTop_toBottomOf="@+id/imageView02"
+               app:layout_constraintRight_toRightOf="@+id/constraintLayout"/>
+
+</android.support.constraint.ConstraintLayout>
