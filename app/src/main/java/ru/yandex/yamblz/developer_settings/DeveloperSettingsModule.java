@@ -12,7 +12,8 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import hu.supercluster.paperwork.Paperwork;
+import ru.yandex.yamblz.ui.other.ViewModifier;
+import ru.yandex.yamblz.ui.presenters.DeveloperSettingsPresenter;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -49,22 +50,14 @@ public class DeveloperSettingsModule {
         return new LeakCanaryProxyImpl(application);
     }
 
-    @Provides
-    @NonNull
-    @Singleton
-    public Paperwork providePaperwork(@NonNull Application application) {
-        return new Paperwork(application);
-    }
-
     // We will use this concrete type for debug code, but main code will see only DeveloperSettingsModel interface.
     @Provides
     @NonNull
     @Singleton
     public DeveloperSettingsModelImpl provideDeveloperSettingsModelImpl(@NonNull Application application,
                                                                         @NonNull DeveloperSettings developerSettings,
-                                                                        @NonNull LeakCanaryProxy leakCanaryProxy,
-                                                                        @NonNull Paperwork paperwork) {
-        return new DeveloperSettingsModelImpl(application, developerSettings, leakCanaryProxy, paperwork);
+                                                                        @NonNull LeakCanaryProxy leakCanaryProxy) {
+        return new DeveloperSettingsModelImpl(application, developerSettings, leakCanaryProxy);
     }
 
     @Provides
