@@ -21,7 +21,8 @@
         android:id="@+id/imageView24"
         tools:layout_editor_absoluteY="0dp"
         app:layout_constraintLeft_toLeftOf="@+id/constraintLayout6"
-        app:layout_constraintRight_toRightOf="@+id/constraintLayout6" />
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout6"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         style="@style/Item.02"
