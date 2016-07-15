@@ -22,3 +22,8 @@ ConstraintLayout:
 	Measure: 0.167
 	Layout: 0.005
 	Draw: 2.339
+FlexBoxtLayout:
+	Measure: 0.078
+	Layout: 0.016
+	Draw: 1.354
+
