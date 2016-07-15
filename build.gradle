@@ -38,6 +38,8 @@ buildscript {
 
         // Check latest version of dependencies, task: dependencyUpdates
         classpath gradlePlugins.versions
+
+
     }
 
     // Part of workaround for Lint + Retrolambda.

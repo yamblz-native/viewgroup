@@ -104,6 +104,9 @@ dependencies {
     compile libraries.tinyDancer
     compile libraries.lynx
     compile libraries.processPhoenix
+    compile libraries.supportConstraintLayout
+    compile libraries.flexLayout
+
 
     testCompile libraries.junit
     testCompile libraries.robolectric
@@ -121,6 +124,8 @@ dependencies {
         exclude module: 'recyclerview-v7'
         exclude module: 'support-v4'
     }
+
+    compile 'com.google.android:flexbox:0.2.2'
 }
 
 configurations.all {
