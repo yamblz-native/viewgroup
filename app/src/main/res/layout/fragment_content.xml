@@ -37,6 +37,11 @@
             Measure:0,022
             Layout:0,008
             Draw:1,780
+
+        Flexbox_layout:
+            Measure:0,079
+            Layout:0,016
+            Draw:0,585
     -->
 
 
@@ -62,6 +67,8 @@
             <include layout="@layout/flex_layout" />
 
             <include layout="@layout/table_layout" />
+
+            <include layout="@layout/flexbox_layout" />
 
         </LinearLayout>
 

@@ -85,6 +85,7 @@ android {
 
 // Libraries declared in dependencies.gradle in the root of the project
 dependencies {
+    compile 'com.google.android:flexbox:0.2.2'
     compile libraries.dagger
     apt libraries.daggerCompiler
 
