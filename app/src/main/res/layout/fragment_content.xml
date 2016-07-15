@@ -7,8 +7,72 @@
     android:gravity="center_horizontal"
     >
 
-    <include layout="@layout/frame_layout" />
+    <!--
+        Frame_layout:
+            Measure:0,011
+            Layout:0,007
+            Draw:0,640
 
-    <include layout="@layout/linear_layout" />
+        Linear_layout:
+            Measure:0,013
+            Layout:0,008
+            Draw:2,214
+
+        Relative_layout:
+            Measure:0,020
+            Layout:0,004
+            Draw:2,085
+
+        Constraint_layout:
+            Measure:0,126
+            Layout:0,007
+            Draw:1,881
+
+        Flex_layout:
+            Measure:0,028
+            Layout:0,007
+            Draw:0,784
+
+        Table_layout:
+            Measure:0,022
+            Layout:0,008
+            Draw:1,780
+
+        Flexbox_layout:
+            Measure:0,079
+            Layout:0,016
+            Draw:0,585
+    -->
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <include layout="@layout/frame_layout" />
+
+            <include layout="@layout/linear_layout" />
+
+            <include layout="@layout/relative_layout" />
+
+            <include layout="@layout/constraint_layout" />
+
+            <include layout="@layout/flex_layout" />
+
+            <include layout="@layout/table_layout" />
+
+            <include layout="@layout/flexbox_layout" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 </LinearLayout>

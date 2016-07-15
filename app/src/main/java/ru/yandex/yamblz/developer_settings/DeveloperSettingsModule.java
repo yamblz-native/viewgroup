@@ -3,6 +3,8 @@ package ru.yandex.yamblz.developer_settings;
 import android.app.Application;
 import android.support.annotation.NonNull;
 
+import ru.yandex.yamblz.ui.other.ViewModifier;
+import ru.yandex.yamblz.ui.presenters.DeveloperSettingsPresenter;
 import com.github.pedrovgs.lynx.LynxConfig;
 
 import javax.inject.Named;

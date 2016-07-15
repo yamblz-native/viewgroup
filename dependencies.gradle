@@ -7,7 +7,7 @@ ext.versions = [
         compileSdk                   : 23,
         buildTools                   : '23.0.3',
 
-        androidGradlePlugin          : '2.2.0-alpha4',
+        androidGradlePlugin          : '2.1.2',
         aptGradlePlugin              : '1.8',
         retrolambdaGradlePlugin      : '3.2.5',
         lombokGradlePlugin           : '0.2.3.a2',
@@ -85,4 +85,6 @@ ext.libraries = [
         supportTestRules        : "com.android.support.test:rules:$versions.supportTestRunner",
         espressoCore            : "com.android.support.test.espresso:espresso-core:$versions.espresso",
         espressoContrib         : "com.android.support.test.espresso:espresso-contrib:$versions.espresso",
+        supportConstraintLayout : "com.android.support.constraint:constraint-layout:1.0.0-alpha1",
+        flexLayout              : "com.github.mmin18:flexlayout:1.2.4",
 ]

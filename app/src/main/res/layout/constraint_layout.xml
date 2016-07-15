@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="195dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Item.00"
+        android:id="@+id/Item.00"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/Item.00"
+        style="@style/Item.01"
+        android:id="@+id/Item.01"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/Item.01"
+        style="@style/Item.02"
+        android:id="@+id/Item.02"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Item.00"
+        style="@style/Item.10"
+        android:id="@+id/Item.10"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Item.01"
+        app:layout_constraintLeft_toRightOf="@id/Item.10"
+        style="@style/Item.11"
+        android:id="@+id/Item.11"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Item.02"
+        app:layout_constraintLeft_toRightOf="@id/Item.11"
+        style="@style/Item.12"
+        android:id="@+id/Item.12"/>
+</android.support.constraint.ConstraintLayout>
