@@ -8,28 +8,16 @@
     app:flexWrap="wrap"
     tools:ignore="ContentDescription,RtlHardcoded">
 
-    <ImageView
-        style="@style/Item.00"
-        app:layout_flexBasisPercent="50%" />
+    <ImageView style="@style/Item.00" />
 
-    <ImageView
-        style="@style/Item.10"
-        app:layout_flexBasisPercent="50%" />
+    <ImageView style="@style/Item.10" />
 
-    <ImageView
-        style="@style/Item.01"
-        app:layout_flexBasisPercent="50%" />
+    <ImageView style="@style/Item.01" />
 
-    <ImageView
-        style="@style/Item.11"
-        app:layout_flexBasisPercent="50%" />
+    <ImageView style="@style/Item.11" />
 
-    <ImageView
-        style="@style/Item.02"
-        app:layout_flexBasisPercent="50%" />
+    <ImageView style="@style/Item.02" />
 
-    <ImageView
-        style="@style/Item.12"
-        app:layout_flexBasisPercent="50%" />
+    <ImageView style="@style/Item.12" />
 
 </com.google.android.flexbox.FlexboxLayout>
