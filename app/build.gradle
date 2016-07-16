@@ -98,6 +98,9 @@ dependencies {
 
     compile libraries.timber
 
+    compile libraries.flexboxLayout
+    compile libraries.constraintLayout
+
     // Developer tools (Developer Settings)
     compile libraries.stetho
     compile libraries.leakCanary
