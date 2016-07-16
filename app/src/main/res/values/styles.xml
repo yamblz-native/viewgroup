@@ -47,4 +47,51 @@
         <item name="android:src">@drawable/ic_shuffle</item>
     </style>
 
+    <!-- Player buttons style -->
+
+    <style name="PlayerItem">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+
+    <style name="PlayerItem.01">
+        <item name="srcCompat">@drawable/ic_play</item>
+        <item name="android:src">@drawable/ic_play</item>
+    </style>
+
+    <style name="PlayerItem.02">
+        <item name="srcCompat">@drawable/ic_pause</item>
+        <item name="android:src">@drawable/ic_pause</item>
+    </style>
+
+    <style name="PlayerItem.03">
+        <item name="srcCompat">@drawable/ic_stop</item>
+        <item name="android:src">@drawable/ic_stop</item>
+    </style>
+
+    <style name="PlayerItem.04">
+        <item name="srcCompat">@drawable/ic_record_black</item>
+        <item name="android:src">@drawable/ic_record_black</item>
+    </style>
+
+    <style name="PlayerItem.05">
+        <item name="srcCompat">@drawable/ic_skip_previous</item>
+        <item name="android:src">@drawable/ic_skip_previous</item>
+    </style>
+
+    <style name="PlayerItem.06">
+        <item name="srcCompat">@drawable/ic_fast_rewind</item>
+        <item name="android:src">@drawable/ic_fast_rewind</item>
+    </style>
+
+    <style name="PlayerItem.07">
+        <item name="srcCompat">@drawable/ic_fast_forward</item>
+        <item name="android:src">@drawable/ic_fast_forward</item>
+    </style>
+
+    <style name="PlayerItem.08">
+        <item name="srcCompat">@drawable/ic_skip_next</item>
+        <item name="android:src">@drawable/ic_skip_next</item>
+    </style>
+
 </resources>
