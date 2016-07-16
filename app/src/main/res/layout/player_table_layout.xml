@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center_horizontal">
+        <SeekBar
+            android:layout_marginBottom="@dimen/def_margin"
+            android:layout_marginTop="@dimen/def_margin"
+            android:progress="50"
+            android:layout_span="4" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            style="@style/PlayerItem.01"
+            />
+
+        <ImageButton
+            style="@style/PlayerItem.02"
+            />
+
+        <ImageButton
+            style="@style/PlayerItem.03"
+            />
+
+        <ImageButton
+            style="@style/PlayerItem.04"
+            />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            style="@style/PlayerItem.05"
+            />
+
+        <ImageButton
+            style="@style/PlayerItem.06"
+            />
+
+        <ImageButton
+            style="@style/PlayerItem.07"
+            />
+
+        <ImageButton
+            style="@style/PlayerItem.08"
+            />
+    </TableRow>
+
+</TableLayout>

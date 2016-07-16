@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout">
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout" />
+
+    <ImageButton
+        style="@style/PlayerItem.01"
+        android:id="@+id/play"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.2" />
+
+    <ImageButton
+        android:id="@+id/pause"
+        style="@style/PlayerItem.02"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.4" />
+
+    <ImageButton
+        android:id="@+id/stop"
+        style="@style/PlayerItem.03"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.6" />
+
+    <ImageButton
+        android:id="@+id/record"
+        style="@style/PlayerItem.04"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.8" />
+
+    <ImageButton
+        android:id="@+id/prev"
+        style="@style/PlayerItem.05"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/stop"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.2" />
+
+    <ImageButton
+        android:id="@+id/rewind"
+        style="@style/PlayerItem.06"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/stop"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.4" />
+
+    <ImageButton
+        android:id="@+id/forward"
+        style="@style/PlayerItem.07"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/stop"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.6" />
+
+    <ImageButton
+        android:id="@+id/next"
+        style="@style/PlayerItem.08"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/stop"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.8" />
+
+</android.support.constraint.ConstraintLayout>

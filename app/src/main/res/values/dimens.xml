@@ -5,5 +5,12 @@
 
     <dimen name="item_size">96dp</dimen>
     <dimen name="double_item_size">192dp</dimen>
+    <dimen name="double_margin_horiz">64dp</dimen>
+    <dimen name="triple_margin_horiz">128dp</dimen>
+    <dimen name="quadruple_margin_horiz">192dp</dimen>
+    <dimen name="def_margin">16dp</dimen>
+    <dimen name="double_margin_vert">48dp</dimen>
+    <dimen name="triple_margin_vert">112dp</dimen>
+    <dimen name="seekbar_size">256dp</dimen>
 
 </resources>
