@@ -6,4 +6,7 @@
     <dimen name="item_size">96dp</dimen>
     <dimen name="double_item_size">192dp</dimen>
 
+    //magic constants for flex layout
+    <dimen name="height_layout">200dp</dimen>
+
 </resources>
