@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <ImageView
+        android:id="@+id/item.00"
+        style="@style/Item.00"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/item.01"
+        style="@style/Item.01"
+        android:layout_toEndOf="@+id/item.00"
+        android:layout_toRightOf="@+id/item.00" />
+
+    <ImageView
+        android:id="@+id/item.02"
+        style="@style/Item.02"
+        android:layout_toEndOf="@+id/item.01"
+        android:layout_toRightOf="@+id/item.01" />
+
+    <ImageView
+        android:id="@+id/item.10"
+        style="@style/Item.10"
+        android:layout_below="@+id/item.00" />
+
+    <ImageView
+        android:id="@+id/item.11"
+        style="@style/Item.11"
+        android:layout_below="@+id/item.01"
+        android:layout_toEndOf="@+id/item.10"
+        android:layout_toRightOf="@+id/item.10" />
+
+    <ImageView
+        android:id="@+id/item.12"
+        style="@style/Item.12"
+        android:layout_below="@+id/item.02"
+        android:layout_toEndOf="@+id/item.11"
+        android:layout_toRightOf="@+id/item.11" />
+
+</RelativeLayout>

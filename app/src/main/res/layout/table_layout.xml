@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            style="@style/Item.00"
+            android:layout_column="1" />
+
+        <ImageView
+            style="@style/Item.01"
+            android:layout_column="2" />
+
+        <ImageView
+            style="@style/Item.02"
+            android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            style="@style/Item.10"
+            android:layout_column="1" />
+
+        <ImageView
+            style="@style/Item.11"
+            android:layout_column="2" />
+
+        <ImageView
+            style="@style/Item.12"
+            android:layout_column="3" />
+    </TableRow>
+</TableLayout>
