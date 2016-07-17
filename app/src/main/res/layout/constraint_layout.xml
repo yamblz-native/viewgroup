@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/item.00"
+        style="@style/Item.00"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+
+    <ImageView
+        android:id="@+id/item.01"
+        style="@style/Item.01"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/item.02"
+        style="@style/Item.02"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintLeft_toRightOf="@+id/item.01"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout" />
+
+
+    <ImageView
+        android:id="@+id/item.10"
+        style="@style/Item.10"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+
+
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/item.00" />
+
+    <ImageView
+        android:id="@+id/item.11"
+        style="@style/Item.11"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintLeft_toRightOf="@+id/item.10"
+        app:layout_constraintTop_toBottomOf="@+id/item.01" />
+
+    <ImageView
+        android:id="@+id/item.12"
+        style="@style/Item.12"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintLeft_toRightOf="@+id/item.11"
+        app:layout_constraintTop_toBottomOf="@+id/item.02" />
+</android.support.constraint.ConstraintLayout>
