@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:flexWrap="wrap">
+
+
+    <ImageView
+        android:id="@+id/item00"
+        style="@style/Item.00" />
+
+    <ImageView
+        android:id="@+id/item01"
+        style="@style/Item.01" />
+
+    <ImageView
+        android:id="@+id/item02"
+        style="@style/Item.02" />
+
+    <ImageView
+        android:id="@+id/item10"
+        style="@style/Item.10"
+        app:layout_wrapBefore="true"/>
+
+    <ImageView
+        android:id="@+id/item11"
+        style="@style/Item.11" />
+
+    <ImageView
+        android:id="@+id/item12"
+        style="@style/Item.12" />
+
+</com.google.android.flexbox.FlexboxLayout>
