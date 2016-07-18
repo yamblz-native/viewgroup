@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:flexDirection="row"
+    app:alignContent="stretch"
+    app:flexWrap="wrap">
+
+    <ImageView
+        android:id="@+id/i00"
+        style="@style/Item.00"
+        app:layout_flexBasisPercent="33%"
+        />
+
+    <ImageView
+        android:id="@+id/i01"
+        style="@style/Item.01"
+        app:layout_flexBasisPercent="33%"/>
+
+    <ImageView
+        android:id="@+id/i02"
+        style="@style/Item.02"
+        app:layout_flexBasisPercent="33%"/>
+
+    <ImageView
+        android:id="@+id/i10"
+        style="@style/Item.10"
+        app:layout_flexBasisPercent="33%"/>
+
+    <ImageView
+        android:id="@+id/i11"
+        style="@style/Item.11"
+        app:layout_flexBasisPercent="33%"/>
+
+    <ImageView
+        android:id="@+id/i12"
+        style="@style/Item.12"
+        app:layout_flexBasisPercent="33%"/>
+</com.google.android.flexbox.FlexboxLayout>
+
