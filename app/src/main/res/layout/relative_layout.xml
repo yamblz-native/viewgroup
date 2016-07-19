@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+
+    <ImageView style="@style/Item.00"
+        android:id="@+id/btnTopLeft"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView style="@style/Item.01"
+        android:id="@+id/btnTopCenter"
+        android:layout_toEndOf="@id/btnTopLeft"
+        android:layout_toRightOf="@id/btnTopLeft" />
+
+    <ImageView style="@style/Item.02"
+        android:layout_toEndOf="@id/btnTopCenter"
+        android:layout_toRightOf="@id/btnTopCenter"/>
+
+
+    <ImageView style="@style/Item.10"
+        android:id="@+id/btnBottomLeft"
+        android:layout_below="@id/btnTopLeft"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView style="@style/Item.11"
+        android:id="@+id/btnBottomCenter"
+        android:layout_toEndOf="@id/btnBottomLeft"
+        android:layout_toRightOf="@id/btnBottomLeft"
+        android:layout_below="@id/btnTopCenter" />
+
+    <ImageView style="@style/Item.12"
+        android:layout_below="@id/btnTopCenter"
+        android:layout_toEndOf="@id/btnBottomCenter"
+        android:layout_toRightOf="@id/btnBottomCenter"/>
+
+</RelativeLayout>

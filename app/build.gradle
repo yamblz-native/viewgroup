@@ -5,6 +5,7 @@ apply from: '../code_quality_tools/jacoco.gradle'
 apply plugin: 'com.frogermcs.androiddevmetrics'
 apply from: '../code_quality_tools/quality.gradle'
 apply plugin: 'com.github.ben-manes.versions'
+apply plugin: 'hu.supercluster.paperwork'
 
 android {
     // Declared in dependencies.gradle in the root of the project.
@@ -121,6 +122,10 @@ dependencies {
         exclude module: 'recyclerview-v7'
         exclude module: 'support-v4'
     }
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
+    compile 'hu.supercluster:paperwork:1.2.7'
+    compile 'com.google.android:flexbox:0.2.2'
+
 }
 
 configurations.all {
