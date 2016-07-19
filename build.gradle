@@ -38,6 +38,9 @@ buildscript {
 
         // Check latest version of dependencies, task: dependencyUpdates
         classpath gradlePlugins.versions
+
+        classpath 'hu.supercluster:paperwork-plugin:1.2.7'
+
     }
 
     // Part of workaround for Lint + Retrolambda.
