@@ -95,6 +95,7 @@ dependencies {
     compile libraries.supportConstraint
 
     compile libraries.flexBox
+    compile libraries.supportGrid
 
     compile libraries.butterKnife
     apt libraries.butterKnifeCompiler

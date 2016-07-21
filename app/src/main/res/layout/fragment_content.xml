@@ -44,5 +44,11 @@
             android:text="@string/flex"/>
         <include layout="@layout/flexbox_layout" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid"/>
+        <include layout="@layout/grid_layout" />
+
     </LinearLayout>
 </ScrollView>
