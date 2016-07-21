@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/constraintLayout">
+
+    <ImageView style="@style/Item.00"
+        android:id="@+id/image00"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"/>
+
+    <ImageView
+        style="@style/Item.01"
+        android:id="@+id/image01"
+        app:layout_constraintLeft_toRightOf="@+id/image00"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"/>
+
+    <ImageView
+        style="@style/Item.02"
+        android:id="@+id/image02"
+        app:layout_constraintLeft_toRightOf="@+id/image01"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"/>
+
+    <ImageView
+        style="@style/Item.10"
+        android:id="@+id/image10"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/image00"/>
+
+    <ImageView
+        style="@style/Item.11"
+        android:id="@+id/image11"
+        app:layout_constraintLeft_toRightOf="@+id/image10"
+        app:layout_constraintTop_toBottomOf="@+id/image01"/>
+
+    <ImageView
+        style="@style/Item.12"
+        app:layout_constraintLeft_toRightOf="@+id/image11"
+        app:layout_constraintTop_toBottomOf="@+id/image02"/>
+
+</android.support.constraint.ConstraintLayout>

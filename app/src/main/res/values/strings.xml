@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Yamblz</string>
     <string name="content">Hello</string>
+
+    <string name="frame">Frame layout</string>
+    <string name="linear">Linear layout</string>
+    <string name="relative">Relative layout</string>
+    <string name="table">Table layout</string>
+    <string name="constraint">Constraint layout</string>
+    <string name="flex">Flex layout</string>
+    <string name="grid">Grid layout</string>
 </resources>
