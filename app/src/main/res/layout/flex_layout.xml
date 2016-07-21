@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/constraintLayout"
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView style="@style/Item.00"
+        app:layout_flexGrow="0"
+        android:id="@+id/item00" />
+    <ImageView style="@style/Item.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/item01"
+        />
+
+    <ImageView style="@style/Item.02"
+        />
+
+    <ImageView style="@style/Item.10"
+        android:id="@+id/item10"
+        app:layout_flexGrow="1"
+        />
+    <ImageView style="@style/Item.11"
+
+        />
+    <ImageView style="@style/Item.12"
+
+        />
+
+</com.google.android.flexbox.FlexboxLayout>

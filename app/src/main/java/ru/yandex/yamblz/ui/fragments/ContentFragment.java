@@ -13,6 +13,10 @@ public class ContentFragment extends BaseFragment {
     @NonNull
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_content, container, false);
+        //return  inflater.inflate(R.layout.flex_fragment_layout, container, false);
+//return  inflater.inflate(R.layout.constraint_fragment_layout, container, false);
+//        return  inflater.inflate(R.layout.fragment_content, container, false);
+//        return  inflater.inflate(R.layout.table_fragment_layout, container, false);
+        return  inflater.inflate(R.layout.rel_fragment_content, container, false);
     }
 }
