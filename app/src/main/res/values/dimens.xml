@@ -5,5 +5,6 @@
 
     <dimen name="item_size">96dp</dimen>
     <dimen name="double_item_size">192dp</dimen>
+    <dimen name="triple_item_size">288dp</dimen>
 
 </resources>
