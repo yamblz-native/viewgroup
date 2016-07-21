@@ -105,6 +105,10 @@ dependencies {
     compile libraries.lynx
     compile libraries.processPhoenix
 
+
+    compile libraries.constraintLayout
+    compile libraries.flexboxLayout
+
     testCompile libraries.junit
     testCompile libraries.robolectric
     testCompile libraries.assertJ
