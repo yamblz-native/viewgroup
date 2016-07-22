@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    >
+    android:layout_height="match_parent">
 
-    <include layout="@layout/frame_layout" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-    <include layout="@layout/linear_layout" />
+        <!-- Measure | Layout | Draw [ms] -->
 
-</LinearLayout>
+        <!-- 0.035   | 0.017  | 0.900     -->
+        <include layout="@layout/frame_layout"/>
+
+        <!-- 0.045   | 0.022  | 0.804     -->
+        <include layout="@layout/linear_layout"/>
+
+        <!-- 0.060   | 0.010  | 0.739     -->
+        <include layout="@layout/relative_layout"/>
+
+        <!-- 0.077   | 0.026  | 0.716     -->
+        <include layout="@layout/table_layout"/>
+
+        <!-- 0.552   | 0.018  | 0.816     -->
+        <include layout="@layout/constraint_layout"/>
+
+        <!-- 0.121   | 0.023  | 0.723     -->
+        <include layout="@layout/flexbox_layout"/>
+
+    </LinearLayout>
+
+</ScrollView>
