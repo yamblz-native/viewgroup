@@ -14,6 +14,8 @@
 
         <include layout="@layout/linear_layout"/>
 
+        <include layout="@layout/relative_layout"/>
+
     </LinearLayout>
 
 </ScrollView>
