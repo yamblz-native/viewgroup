@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
+import com.facebook.stetho.Stetho;
+
 import ru.yandex.yamblz.developer_settings.DevMetricsProxy;
 import ru.yandex.yamblz.developer_settings.DeveloperSettingsModel;
 import timber.log.Timber;
@@ -21,6 +23,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         applicationComponent = prepareApplicationComponent().build();
+        Stetho.initializeWithDefaults(this);
 
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
