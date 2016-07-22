@@ -11,4 +11,12 @@
 
     <include layout="@layout/linear_layout" />
 
+    <include layout="@layout/relative_layout" />
+
+    <include layout="@layout/table_layout" />
+
+    <include layout="@layout/constraint_layout" />
+
+    <include layout="@layout/flex_layout" />
+
 </LinearLayout>

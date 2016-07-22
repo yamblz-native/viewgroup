@@ -92,6 +92,8 @@ dependencies {
     compile libraries.supportDesign
     compile libraries.supportRecyclerView
     compile libraries.supportCardView
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
+    compile 'com.github.mmin18:flexlayout:1.2.4'
 
     compile libraries.butterKnife
     apt libraries.butterKnifeCompiler
