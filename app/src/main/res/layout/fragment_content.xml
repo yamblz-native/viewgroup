@@ -18,6 +18,8 @@
 
         <include layout="@layout/table_layout"/>
 
+        <include layout="@layout/constraint_layout"/>
+
     </LinearLayout>
 
 </ScrollView>
