@@ -4,11 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
-    >
+    android:gravity="center_horizontal">
 
-    <include layout="@layout/frame_layout" />
+    <include layout="@layout/frame_layout"/>
 
-    <include layout="@layout/linear_layout" />
+    <include layout="@layout/linear_layout"/>
+
+    <include layout="@layout/relative_layout"/>
+
+    <include layout="@layout/table_layout"/>
+
+    <include layout="@layout/constraint_layout"/>
+
+    <include layout="@layout/flexbox_layout"/>
 
 </LinearLayout>
