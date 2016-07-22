@@ -7,7 +7,7 @@ ext.versions = [
         compileSdk                   : 23,
         buildTools                   : '23.0.3',
 
-        androidGradlePlugin          : '2.2.0-alpha4',
+        androidGradlePlugin          : '2.1.2',
         aptGradlePlugin              : '1.8',
         retrolambdaGradlePlugin      : '3.2.5',
         lombokGradlePlugin           : '0.2.3.a2',
@@ -74,6 +74,7 @@ ext.libraries = [
         lynx                    : "com.github.pedrovgs:lynx:$versions.lynx",
         devMetricsNoOp          : "com.frogermcs.androiddevmetrics:androiddevmetrics-runtime-noop:$versions.androidDevMetricsGradlePlugin",
         processPhoenix          : "com.jakewharton:process-phoenix:$versions.processPhoenix",
+        flex                    : "com.google.android:flexbox:0.2.2",
 
         // Test dependencies
         junit                   : "junit:junit:$versions.junit",
