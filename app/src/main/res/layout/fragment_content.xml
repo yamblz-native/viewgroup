@@ -20,6 +20,8 @@
 
         <include layout="@layout/constraint_layout"/>
 
+        <include layout="@layout/flexbox_layout"/>
+
     </LinearLayout>
 
 </ScrollView>
