@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import com.android.debug.hv.ViewServer;
+
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -32,5 +34,19 @@ public class MainActivity extends BaseActivity {
                     .replace(R.id.main_frame_layout, new ContentFragment())
                     .commit();
         }
+
+        ViewServer.get(this).addWindow(this);
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        ViewServer.get(this).removeWindow(this);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        ViewServer.get(this).setFocusedWindow(this);
     }
 }
