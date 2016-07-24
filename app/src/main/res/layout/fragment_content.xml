@@ -1,14 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_horizontal"
-    >
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,RtlHardcoded,HardcodedText">
 
-    <include layout="@layout/frame_layout" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <include layout="@layout/linear_layout" />
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frame" />
 
-</LinearLayout>
+        <include layout="@layout/frame_layout" />
+
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear" />
+
+        <include layout="@layout/linear_layout" />
+
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative" />
+
+        <include layout="@layout/relative_layout" />
+
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table" />
+
+        <include layout="@layout/table_layout" />
+
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Constraint" />
+
+        <include layout="@layout/constraint_layout_no_infere" />
+
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Constraint Infere" />
+
+        <include layout="@layout/constraint_layout" />
+
+        <TextView
+            style="@style/DefaultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flex" />
+
+        <include layout="@layout/flexbox_layout" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Item.00" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            style="@style/Item.01" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            style="@style/Item.02" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            style="@style/Item.10" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/Item.11" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            style="@style/Item.12" />
+
+    </TableRow>
+
+
+</TableLayout>
