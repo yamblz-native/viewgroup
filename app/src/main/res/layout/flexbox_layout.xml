@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:flexWrap="wrap"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <ImageView style="@style/Item.00" />
+
+    <ImageView style="@style/Item.01" />
+
+    <ImageView style="@style/Item.02" />
+
+    <ImageView
+        style="@style/Item.10"
+        app:layout_wrapBefore="true" />
+
+    <ImageView style="@style/Item.11" />
+
+    <ImageView style="@style/Item.12" />
+
+</com.google.android.flexbox.FlexboxLayout>

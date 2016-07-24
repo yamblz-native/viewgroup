@@ -92,6 +92,8 @@ dependencies {
     compile libraries.supportDesign
     compile libraries.supportRecyclerView
     compile libraries.supportCardView
+    compile libraries.constraintLayout
+    compile libraries.flexboxLayout
 
     compile libraries.butterKnife
     apt libraries.butterKnifeCompiler
@@ -104,6 +106,7 @@ dependencies {
     compile libraries.tinyDancer
     compile libraries.lynx
     compile libraries.processPhoenix
+    compile libraries.viewServer
 
     testCompile libraries.junit
     testCompile libraries.robolectric
