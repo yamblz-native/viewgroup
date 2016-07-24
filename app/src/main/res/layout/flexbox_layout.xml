@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="288dp"
+    android:layout_height="wrap_content"
+    app:justifyContent="center"
+    app:flexWrap="wrap"
+    app:alignContent="center"
+    app:alignItems="flex_start"
+    app:flexDirection="row"
+    android:focusable="false">
+
+    <ImageView
+        style="@style/Item.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false" />
+
+    <ImageView
+        style="@style/Item.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        style="@style/Item.02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        style="@style/Item.10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        style="@style/Item.11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        style="@style/Item.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</com.google.android.flexbox.FlexboxLayout>

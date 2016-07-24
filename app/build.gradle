@@ -121,6 +121,9 @@ dependencies {
         exclude module: 'recyclerview-v7'
         exclude module: 'support-v4'
     }
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    compile 'com.google.android:flexbox:0.2.2'
+    compile 'com.github.romainguy:viewserver:017c01cd512cac3ec054d9eee05fc48c5a9d2de'
 }
 
 configurations.all {
