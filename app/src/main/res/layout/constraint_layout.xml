@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <ImageView
+        android:id="@+id/item00"
+        style="@style/Item.00"/>
+
+    <ImageView
+        android:id="@+id/item01"
+        style="@style/Item.01"
+        app:layout_constraintLeft_toRightOf="@id/item00"/>
+
+    <ImageView
+        android:id="@+id/item02"
+        style="@style/Item.02"
+        app:layout_constraintLeft_toRightOf="@id/item01"/>
+
+    <ImageView
+        android:id="@+id/item10"
+        style="@style/Item.10"
+        app:layout_constraintTop_toBottomOf="@id/item00"/>
+
+    <ImageView
+        android:id="@+id/item11"
+        style="@style/Item.11"
+        app:layout_constraintLeft_toRightOf="@id/item10"
+        app:layout_constraintTop_toBottomOf="@id/item01"/>
+
+    <ImageView
+        style="@style/Item.12"
+        app:layout_constraintLeft_toRightOf="@id/item11"
+        app:layout_constraintTop_toBottomOf="@id/item02"/>
+
+</android.support.constraint.ConstraintLayout>
