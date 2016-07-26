@@ -87,6 +87,10 @@ dependencies {
     compile libraries.dagger
     apt libraries.daggerCompiler
 
+    compile 'com.google.android:flexbox:0.2.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.+'
+    compile 'com.github.romainguy:ViewServer:017c01cd512cac3ec054d9eee05fc48c5a9d2de'
+
     compile libraries.supportAnnotations
     compile libraries.supportAppCompat
     compile libraries.supportDesign
@@ -142,4 +146,8 @@ if (withDexcount) {
         verbose = false
         maxTreeDepth = Integer.MAX_VALUE
     }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
 }
