@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView style="@style/Item.00"
+        android:id="@+id/c00"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ImageView style="@style/Item.11"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/c11" />
+
+    <ImageView style="@style/Item.12"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/c12" />
+
+    <ImageView style="@style/Item.01"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/c01"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <ImageView style="@style/Item.02"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/c02" />
+
+    <ImageView style="@style/Item.10"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="96dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/c10" />
+</android.support.constraint.ConstraintLayout>
