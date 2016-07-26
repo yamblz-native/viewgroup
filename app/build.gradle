@@ -105,6 +105,9 @@ dependencies {
     compile libraries.lynx
     compile libraries.processPhoenix
 
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    compile 'com.google.android:flexbox:0.2.2'
+
     testCompile libraries.junit
     testCompile libraries.robolectric
     testCompile libraries.assertJ
