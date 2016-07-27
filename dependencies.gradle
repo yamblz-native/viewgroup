@@ -7,7 +7,7 @@ ext.versions = [
         compileSdk                   : 23,
         buildTools                   : '23.0.3',
 
-        androidGradlePlugin          : '2.1.2',
+        androidGradlePlugin          : '2.2.0-alpha6',
         aptGradlePlugin              : '1.8',
         retrolambdaGradlePlugin      : '3.2.5',
         lombokGradlePlugin           : '0.2.3.a2',
@@ -37,6 +37,8 @@ ext.versions = [
         equalsVerifier               : '1.7.5',
         mockito                      : '1.10.19',
         supportTestRunner            : '0.5',
+
+        constraintLayout             : '1.0.0-alpha4'
 ]
 
 ext.gradlePlugins = [
@@ -62,6 +64,7 @@ ext.libraries = [
         supportDesign           : "com.android.support:design:$versions.supportLibs",
         supportRecyclerView     : "com.android.support:recyclerview-v7:$versions.supportLibs",
         supportCardView         : "com.android.support:cardview-v7:$versions.supportLibs",
+        constraintLayout        : "com.android.support.constraint:constraint-layout:$versions.constraintLayout",
 
         butterKnife             : "com.jakewharton:butterknife:$versions.butterKnife",
         butterKnifeCompiler     : "com.jakewharton:butterknife-compiler:$versions.butterKnife",
