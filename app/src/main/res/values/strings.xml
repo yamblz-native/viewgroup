@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Yamblz</string>
     <string name="content">Hello</string>
+    <string name="item00">item00</string>
+    <string name="item01">item01</string>
+    <string name="item02">item02</string>
+    <string name="item10">item10</string>
+    <string name="item11">item11</string>
+    <string name="item12">item12</string>
 </resources>
